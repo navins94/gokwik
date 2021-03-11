@@ -1,0 +1,48 @@
+.DetailCard {
+  padding: 2rem;
+  margin-top: 2rem;
+
+  @media (min-width: 700px) {
+    padding: 4rem;
+  }
+
+  &__Content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 2.6rem;
+
+    @media (min-width: 700px) {
+      margin-bottom: 6rem;
+    }
+
+    &--Para {
+      font-size: 2rem;
+      line-height: 150%;
+      margin-left: 1.5rem;
+
+      &__Ques {
+        font-weight: 700;
+      }
+
+      &__Ans {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  &__Whatsapp {
+    font-size: 6rem;
+    color: rgb(1, 207, 1);
+  }
+
+  &__Gift {
+    font-size: 6rem;
+    color: rgb(235, 152, 0);
+  }
+
+  &__Close {
+    font-size: 6rem;
+    color: red;
+  }
+}

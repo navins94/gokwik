@@ -1,0 +1,15 @@
+@import "scss/main.scss";
+
+.App {
+  font-family: Circular Std Book;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

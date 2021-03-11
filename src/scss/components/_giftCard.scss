@@ -1,0 +1,100 @@
+.GiftCard {
+  background: linear-gradient(to bottom, #131922 50%, #ffffff 50%);
+  padding: 0 2rem;
+
+  @media (min-width: 700px) {
+    padding: 0 8rem;
+    background: #131922;
+    padding-bottom: 8rem;
+  }
+
+  &__Container {
+    background: #ffffff;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 3rem;
+    -webkit-box-shadow: 0px 8px 25px -10px #bbbbbb;
+    -moz-box-shadow: 0px 8px 25px -10px #bbbbbb;
+    box-shadow: 0px 8px 25px -10px #bbbbbb;
+
+    @media (min-width: 700px) {
+      padding: 6rem 4.5rem;
+    }
+
+    &--Img {
+      width: 20%;
+      margin-bottom: 3rem;
+    }
+
+    &--Content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+
+      &__Col1 {
+        background: -webkit-linear-gradient(
+          left,
+          #8c00bf 20%,
+          #ba0070 70%,
+          #ffaa00 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        &--Para1 {
+          font-size: 5rem;
+          font-weight: bolder;
+          line-height: 90%;
+          margin-right: 3rem;
+          font-family: "Fugaz One", cursive;
+        }
+        &--Para2 {
+          font-size: 2rem;
+          font-weight: bolder;
+          line-height: 60%;
+          font-family: "Fugaz One", cursive;
+          padding-right: 1rem;
+        }
+      }
+
+      &__Col2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        background: -webkit-linear-gradient(
+          left,
+          #8c00bf 20%,
+          #ba0070 70%,
+          #ffaa00 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        &--Para1 {
+          font-size: 2.8rem;
+          font-weight: bolder;
+          line-height: 100%;
+        }
+        &--Para2 {
+          font-size: 7.5rem;
+          font-weight: bolder;
+          line-height: 85%;
+          font-family: "Fugaz One", cursive;
+          padding-right: 1rem;
+          @media (min-width: 700px) {
+            line-height: 90%;
+          }
+        }
+      }
+    }
+  }
+}

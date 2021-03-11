@@ -1,0 +1,38 @@
+.Home {
+	@media (min-width: 700px) {
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	&__Para {
+		font-size: 2rem;
+		padding: 4rem;
+		line-height: 150%;
+		text-align: center;
+
+		@media (min-width: 700px) {
+			padding: 8rem;
+		}
+	}
+
+	&__ParaBold {
+		font-weight: 600;
+	}
+
+	&__DestopContainer2 {
+		@media (min-width: 700px) {
+			width: 50%;
+			background: #131922;
+			height: 100%;
+		}
+	}
+
+	&__DestopContainer3 {
+		@media (min-width: 700px) {
+			width: 50%;
+			position: relative;
+		}
+	}
+}
